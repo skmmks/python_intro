@@ -1,7 +1,9 @@
-character_name = 'Steve'
-character_age = 35
-is_male = True
-print('There once was a man named ' + character_name)
-print('he was 35 years ', character_age)
-character_name = 'New Steve'
-print('he really like the name ' + character_name)
+phrase = 'Steve Min'
+print(phrase.lower())
+print(phrase.upper())
+print(phrase.isupper())
+print(phrase.islower())
+print(len(phrase))
+print(phrase[0])
+print(phrase.index('M'))
+print(phrase.replace('Min', 'Steve'))
